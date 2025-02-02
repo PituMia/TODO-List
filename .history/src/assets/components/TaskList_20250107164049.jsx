@@ -1,0 +1,17 @@
+import React from "react";
+import Task from "./Task";
+
+const TaskList = ({tasks}) => {
+    return (
+        <div>
+        {tasks.map((task, index) => (
+            <Task key={index} todo={task} />
+          ))}
+          </div>
+    )
+
+}
+
+export default TaskList
+
+

@@ -1,0 +1,17 @@
+/* Asegurarse de que el contenedor principal ocupe todo el espacio disponible */
+html, body {
+    height: 100%;  /* El cuerpo ocupa toda la altura de la ventana */
+    margin: 0;  /* Eliminar márgenes predeterminados */
+    padding: 0;  /* Eliminar rellenos predeterminados */
+  }
+  
+  /* Centrar el contenido de la clase .app con márgenes iguales arriba y abajo */
+  .app {
+    margin-top: 10vh;   /* Puedes ajustar el valor de 10vh para controlar el margen superior */
+    margin-bottom: 10vh;  /* Este margen será igual al de arriba */
+    display: flex;
+    justify-content: center;  /* Centra los elementos horizontalmente */
+    align-items: center;  /* Centra los elementos verticalmente */
+    height: 80vh;  /* Ajusta la altura del contenedor */
+    width: 100%;  /* Asegura que ocupe todo el ancho */
+  }

@@ -1,0 +1,19 @@
+.input {
+    background-color: #dcdcdc; /* Fondo interior del input (donde va el texto) */
+    color: #333333; /* Letra gris oscuro dentro del input */
+    border: 1px solid #cccccc; /* Borde gris claro */
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 100%;
+    
+    
+}
+
+.input input,
+.input button {
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.8)
+}
+
+.container {
+    margin-bottom: 20px;
+}

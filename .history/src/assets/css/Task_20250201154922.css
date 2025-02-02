@@ -1,0 +1,19 @@
+
+.task {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333333; /* Letra gris oscuro */
+    border: 1px solid #cccccc; /* Borde gris claro */
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+.text h1 {
+    font-family: 'Bubblegum Sans', sans-serif;
+    flex-grow: 0;          
+    align-self: center;     
+    font-size: 1.8em;         
+    line-height: 1;
+    margin-bottom: -3px;         
+     
+     
+}

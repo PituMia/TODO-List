@@ -1,0 +1,31 @@
+.task {
+    border: 4px solid red;
+    border-radius: 10px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 6vh;
+    
+   
+}
+.img {
+    height: 100%;
+
+    object-fit: contain;
+
+    
+}
+.task h1 {
+    font-size: 1.2rem; 
+    overflow: hidden;   
+    white-space: nowrap; 
+    text-overflow: ellipsis;  
+}
+
+.butt {
+    max-height: 70%;
+}
+.btn {
+    max-height: 100%;
+}
+

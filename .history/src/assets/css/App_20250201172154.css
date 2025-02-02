@@ -1,0 +1,6 @@
+.app {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;  /* Esto asegura que haya espacio igual entre el contenido */
+  height: 100%;  /* Toma toda la altura disponible */
+}

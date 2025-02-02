@@ -1,0 +1,15 @@
+.input {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+.input input,
+.input button {
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.8)
+}
+
+.container {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,27 @@
+.task {
+    border: 4px solid #cccccc;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 10px auto;
+    background-image: linear-gradient(to left, #dcdcdc, #f5f5f5);
+    color: #333333;
+    box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.8);
+    padding: 10px; /* Asegúrate de que haya suficiente espacio interno */
+    width: 100%; /* Ocupa el ancho disponible */
+    overflow: visible; /* Asegura que el contenido no se corte */
+    display: flex; /* Usamos flexbox para distribuir el contenido */
+    flex-direction: column; /* Para asegurar que todo el contenido esté alineado en columna */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+}
+
+/* Ajustar la fuente y asegurar que no se corte el texto */
+.text h1 {
+    font-size: 1.2em; /* Tamaño moderado, ajusta si es necesario */
+    font-family: Arial, sans-serif;
+    line-height: 1.4; /* Espaciado entre las líneas */
+    margin: 0; /* Eliminar margen */
+    padding: 0; /* Eliminar padding */
+    word-wrap: break-word; /* Permite que el texto se divida si es largo */
+    overflow-wrap: break-word; /* Otra forma de permitir el salto de línea */
+}

@@ -1,0 +1,22 @@
+import React ,{useState} from "react";
+import CheckIcon from "../img/check.svg";
+import "../css/switchCheck.css"
+
+const SwitchCheck = () => {
+    const [pressed, setPressed] = useState(false)
+    const handlePressed = () => {
+        setPressed(prevstate => !prevstate);
+        console.log("cambio check");
+    }
+    return (
+        <button className={`btn ${pressed ? "btn-pressed" : ""}`} onClick={handlePressed}>
+           
+                    <img src={CheckIcon} alt="Check Icon" className="img" />
+
+                </button>
+    )
+
+
+}
+
+export default SwitchCheck
