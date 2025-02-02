@@ -1,0 +1,10 @@
+.butt-check button:hover img {
+    filter: brightness(0) saturate(100%) invert(22%) sepia(69%) saturate(3800%) hue-rotate(100deg);
+    transition: filter 0.3s ease;
+  }
+
+  .btn-pressed {
+    background-color: green; 
+    color: white;             
+    transform: scale(1.1); 
+}  

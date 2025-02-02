@@ -1,0 +1,9 @@
+
+.task {
+    border: 4px solid gray;
+    border-radius: 15px;
+    padding-right: 5px;
+}
+.butt {
+    padding: 5px;
+}

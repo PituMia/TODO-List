@@ -1,0 +1,7 @@
+.buttons {
+    display: flex;               /* Usamos flexbox para alinearlos horizontalmente */
+    justify-content: space-between; /* Espacio igual entre los botones */
+    align-items: center;         /* Alineación vertical centrada */
+    width: 100%;                 /* Asegura que los botones ocupen todo el ancho disponible */
+    gap: 20px;  
+}

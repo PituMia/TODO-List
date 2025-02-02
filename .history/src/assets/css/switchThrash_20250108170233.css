@@ -1,0 +1,5 @@
+
+.butt-thrash button:hover img {
+    filter: brightness(0) saturate(1000%) invert(21%) sepia(100%) saturate(300%) hue-rotate(-10deg);
+  transition: filter 0.3s ease; /* Transición suave */
+  } 

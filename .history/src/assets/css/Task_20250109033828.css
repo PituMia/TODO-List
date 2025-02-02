@@ -1,0 +1,17 @@
+
+.task {
+    border: 4px solid darkblue;
+border-radius: 10px;
+min-height: 2vh;
+max-height: 5vh;
+max-width: 800px;
+margin: 10px auto;
+}
+
+.text h1 {
+    flex-grow: 0;           /* No crecerá más allá del 70% */
+    align-self: center;     /* Asegura que el h1 esté centrado verticalmente */
+    font-size: 2em;         /* Puedes ajustar el tamaño de la fuente si es necesario */
+    line-height: 1;         /* Esto garantiza que el texto se mantenga centrado */
+    height: 70%;  
+}

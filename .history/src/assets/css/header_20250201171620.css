@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.header {
+    font-family: 'Playfair Display', serif; /* Fuente bonita */
+    font-size: 10rem; /* Tamaño grande */
+    font-weight: 700; /* Estilo en negrita */
+    text-align: center;
+    letter-spacing: 2px; /* Espaciado entre letras */
+    line-height: 1.1; /* Ajuste de altura de línea */
+    color: #333; /* Color del texto */
+    margin: 0; /* Eliminar márgenes */
+    padding: 1rem; /* Espaciado interno */
+    text-transform: uppercase; /* Capitalizar el texto */
+}

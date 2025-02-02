@@ -1,0 +1,16 @@
+.butt-check button:hover img {
+    filter: brightness(0) saturate(100%) invert(22%) sepia(69%) saturate(3800%) hue-rotate(100deg);
+    transition: filter 0.3s ease;
+  }
+
+  .img {
+    width: 24px; /* Ajusta el tamaño de la imagen si es necesario */
+    height: 24px; 
+    transition: all 0.3s ease; /* Animación suave */
+}
+
+/* Cuando el estado 'pressed' es true, aplicamos el color verde solo a la imagen */
+.img-pressed {
+    filter: hue-rotate(120deg); /* Cambia el color a verde */
+    /* Alternativamente puedes usar filter: invert(50%) para un cambio más drástico */
+}
